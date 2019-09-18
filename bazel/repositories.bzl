@@ -50,7 +50,7 @@ def repositories():
         http_archive,
 	name = "com_github_google_crc32c",
     sha256 = "f2d1f486fed053aee654ead9b0d00aa9ae304854931d9e5ef79ceeb621ad13f1",
-	build_file = "@com_github_cschuet_crc32c//bazel/third_party/crc32c:crc32c.BUILD",
+	build_file = "@com_github_lieluoboai_crc32c//bazel/third_party/crc32c:crc32c.BUILD",
 	strip_prefix = "crc32c-e8ac7d437676c6bec99b79a8a734a0fd270d1faa",
 	urls = [
 	    "https://github.com/google/crc32c/archive/e8ac7d437676c6bec99b79a8a734a0fd270d1faa.tar.gz",
